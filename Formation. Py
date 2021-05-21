@@ -1,0 +1,3 @@
+age=21
+name="manoj"
+print("hello %s how are you "%(name))
