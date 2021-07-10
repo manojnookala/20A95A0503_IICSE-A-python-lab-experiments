@@ -15,9 +15,10 @@ def string_list_conversions(s):
 from listoperation import *
 print(list_sum([1,2,3,4,5]))
 print(list_sort([9,2,3,4,10]))
-print(string_list_conversions("hello world"))
+print(string_list_conversions("python programming lab"))
 
 OUTPUT:
 15
 [2, 3, 4, 9, 10]
-['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+['p', 'y', 't', 'h', 'o', 'n', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g', ' ', 'l', 'a', 'b']
+>>>
