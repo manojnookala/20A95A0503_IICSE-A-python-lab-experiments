@@ -4,12 +4,14 @@ class Parent:
         
 
 class Child(Parent):
-     # empty class definition
-    pass
-
-   
+    def anything(self):
+     print('Function defined in child class!')
+     
+obj = Parent()
+obj.anything()
 obj2 = Child()
 obj2.anything()
 
 OUTPUT:
     Function defined in parent class!
+Function defined in child class!
